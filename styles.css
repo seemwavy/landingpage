@@ -1,85 +1,10 @@
 
-.top-section {
-    display: flex;
-    background-color: #1F2937;
-    flex-wrap: wrap;
-}
-
-.mid-section {
-    display: flex;
-    background-color:white;
-    justify-content: space-evenly;
-    gap: 10px;
-}
-
-.header {
-    overflow: hidden;
-    padding: 20px 10px;
-}
-.header a {
-    color: #F9FAF8;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-}
-
-.header-right {
-    float: right;
-    margin-left: 1080px;
-    text-align: center;
-}
-
-.bottom-header {
-    padding: 0 0;  
-    text-align: center;
-}
-
-.header a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.header a.active {
-    background-color: dodgerblue;
-    color: white;
-}
-
-.gamestonk-logo {
-    max-width: 200px;
-}
-
-.gamestonk-share {
-    margin-left: 300px;
-    flex-shrink: 0;
-    max-width: 300px;
-    margin-right: 60px;
-    max-height: 300px
-}
-
-.textnpic {
-    display: flex;
-    font-size: 28px;
-    color: #F9FAF8;
-}
-
-.awesome {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: bold;
-}
-
-.sign-up {
-    background-color: #3882f6;
-    color: #F9FAF8;
-    padding: 5 5;
-}
 
 .mid-images {
     max-width: 150px;
     max-height: 150px;
     border: #3882f6 solid 8px;
+    margin-top: 30px;
     
 }
 .end-section {
@@ -88,6 +13,8 @@
    justify-content: center; 
    color: #1F2937;
    font-size: 36px;
+   padding: 40px;
+   margin-top: 20px;
 }
 
 .mid-text {
@@ -95,7 +22,9 @@
     justify-content: center;
     gap: 200px;
     margin-left: 70px;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 10px;
 }
 
 h2 { 
@@ -117,50 +46,58 @@ h4 {
 
 .profit {
     position: relative;
-    right: 40px;
+    right: 125px;
 }
 
 .drs {
     margin-left: 120px;
     position: relative;
-    right: 50px;
+    right: 80px;
 }
 
 .hold {
     position: relative;
-    left: 20px;
+    left: 60px;
 }
 
 .buy {
     margin-right: 80px;
+    position: relative;
+    left: 80px;
 }
 
 .quote-credit {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
+    padding-bottom: 3em;
 }
 
 .footer {
+    padding: 4em;
     background-color: #3882f6 ;
     border: 1px;
-    margin: 100px 100px;
+  
     text-align: center;
     color: white;
     font-size: 24px;
 }
 
 .call-action {
-    justify-self: flex-start;
+    justify-self: center;
+    padding: 20px;
 }
 
 .ook-ook {
-    padding: 32px 32px;
-    background-color: #3882f6;
-    color: white;
+    width: 30vw;
+    height:80px;
+
+    color: black;
+    margin-left: 20vw;
     font-size: large;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .ending-footer {
@@ -169,4 +106,119 @@ h4 {
     padding: 100px;
     color: white;
     justify-content: center;
+}
+
+
+/* LANDING PAGE TOP STYLES */
+
+.top-section {
+    display: flex;
+    background-color: #1F2937;
+    flex-wrap: wrap;
+    padding: 1.5em;
+
+}
+
+.mid-section {
+    display: flex;
+    background-color:white;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.header {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 2em;
+}
+.header a {
+    color: #b2efe8;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 140px;
+    width: 12vw;
+}
+
+.bottom-header {
+    padding: 0 0;  
+    text-align: center;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.gamestonk-logo {
+   height: 140px;
+}
+
+.gamestonk-share {
+    margin-left: 300px;
+    flex-shrink: 0;
+    max-height: 300px
+}
+
+.textnpic {
+    display: flex;
+    font-size: 28px;
+    color: #F9FAF8;
+}
+
+.awesome {
+    display: flex;
+    font-size: 68px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+    justify-self: center;
+}
+
+.sign-up {
+    display: none;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+p{
+    text-align: left;
+    font-size: 19px;
+}
+
+h5 {
+    text-align: center;
+} 
+
+.cta{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.secondary-header{
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
