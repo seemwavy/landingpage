@@ -46,24 +46,24 @@ h4 {
 
 .profit {
     position: relative;
-    right: 125px;
+    right: 50px;
 }
 
 .drs {
     margin-left: 120px;
     position: relative;
-    right: 80px;
+    right: 60px;
 }
 
 .hold {
     position: relative;
-    left: 60px;
+    left: 30px;
 }
 
 .buy {
     margin-right: 80px;
     position: relative;
-    left: 80px;
+    left: 10px;
 }
 
 .quote-credit {
@@ -146,8 +146,8 @@ h4 {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    height: 140px;
-    width: 12vw;
+    height: 1px;
+    width: 10px;
 }
 
 .bottom-header {
